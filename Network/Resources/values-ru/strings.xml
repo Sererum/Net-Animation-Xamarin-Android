@@ -1,0 +1,29 @@
+<resources>
+	<string name="app_name">Сеть</string>
+	<string name="action_settings">Настройки</string>
+
+	<string name="button_net">Сеть</string>
+	<string name="button_live">Жизнь</string>
+	<string name="button_settings">Настройки</string>
+
+	<string name="count_points">Количество точек: </string>
+	<string name="length_line_connect">Длина связей: </string>
+	<string name="size_point">Размер точек: </string>
+	<string name="speed_point">Скорость точек: </string>
+	<string name="color_of_point">Цвет точек</string>
+	<string name="color_background">Цвет заднего фона</string>
+
+	<string name="pinch_screen">Зажмите экран</string>
+
+	<string name="White">Белый</string>
+	<string name="Black">Черный</string>
+	<string name="Blue">Синий</string>
+	<string name="Aqua">Голубой</string>
+	<string name="Aquamarine">Бирюзовый</string>
+	<string name="Green">Зеленый</string>
+	<string name="Gold">Золотой</string>
+	<string name="MistyRose">Бежевый</string>
+	<string name="Red">Красный</string>
+	<string name="Fuchsia">Розовый</string>
+
+</resources>

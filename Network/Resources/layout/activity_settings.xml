@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/TextCount"
+            android:text="@string/count_points"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/SeekBarCount"
+            tools:ignore="NestedWeights" 
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/TextLength"
+            android:text="@string/length_line_connect"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/SeekBarLength"
+            tools:ignore="NestedWeights" 
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/TextSize"
+            android:text="@string/size_point"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/SeekBarSize"
+            tools:ignore="NestedWeights" 
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/TextSpeed"
+            android:text="@string/speed_point"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/SeekBarSpeed"
+            tools:ignore="NestedWeights" 
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/color_of_point"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ListColorPoint"
+            android:paddingLeft="10dp"
+            tools:ignore="NestedWeights" 
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/color_background"
+            android:gravity="center"
+            android:textSize="17sp"
+            tools:ignore="NestedWeights" 
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ListColorBackground"
+            android:paddingLeft="10dp"
+            tools:ignore="NestedWeights" 
+            />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/SettingsLayout"
+        />
+
+
+</LinearLayout>
